@@ -1,0 +1,341 @@
+html
+{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0px;
+padding:0px;
+background-color:;
+text-decoration-color: white;
+color:white;
+}
+.nav
+{
+background-color: blueviolet;
+width:100%;
+height:100px;
+}
+
+.inside-nav
+{
+display:inline;
+}
+.logo
+{
+    position:absolute;
+    height:100px;
+    min-width: 200px;
+    margin-top:;
+    background-color: red;
+}
+.logo h1{
+    position:absolute;
+    font-size: 40px;
+    margin-left:70px;
+    margin-top:20px;
+
+}
+
+.menus
+{
+    margin-left:250px;
+    position:absolute;
+    height:100px;
+    width:500px;
+    background-color: tan;
+}
+
+.nav ul li
+{
+display:inline-block;
+font-size: 25px;
+margin-top: 30px;
+
+}
+.nav ul li a
+{
+    text-decoration-color: white;
+    text-decoration: none;
+    color:white;
+    margin:5px;
+    padding:10px;
+}
+.nav ul li a:hover
+{
+background-color: teal;
+border-radius: 11px;
+}
+
+.social
+{
+    position:absolute;
+    height:100px;
+    width:auto;
+    right:40px;  
+    font-size:25px;
+    background-color:gold;
+}
+.social a i
+{
+margin-top:30px;
+color:white;
+}
+.fab
+{
+    margin:10px;
+    font-size:25px;
+    
+}
+
+.dc
+{
+    display:none;
+  position: absolute;
+  background-color:darkgrey;
+  min-width: 100px;
+  z-index: 3;
+}
+.dc a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color:purple;
+  }
+  
+  .dc a:hover {
+  background-color:;
+  }
+  
+  .dropdown:hover .dc {
+    display:block;
+  }
+
+  header
+  {
+      position:relative;
+      width:100%;
+      height:600px;
+      background-color:fuchsia;
+      z-index: 1;
+  }
+
+  header img
+  {
+ position:absolute;
+ right:20px;
+ height:600px;
+ width:auto;
+
+  }
+.intro
+{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.intro h1{
+    font-size: 45px;
+}
+.intro h2{
+    font-size: 35px;
+}
+header button
+{
+    background-color: gold;
+    font-size: 25px;
+    padding:10px;
+}
+header button:hover{
+    background-color: lightblue;
+}
+
+.experiences
+{
+    height:auto;
+    width:100%;
+    background-color: red;
+    display:flex;
+    flex-direction: row;
+}
+
+.about
+{
+    background-color:palevioletred;
+    width:50%;
+    height:500px;
+}
+.about h2
+{
+    color:chocolate;
+    margin-top:5vw;
+    margin-left: 4vw;
+}
+.about article
+{
+margin-left:4vw;
+font-size: 21px;
+margin-right: 2vw;
+}
+.about h1
+{
+    font-size: 18vh;
+    color:yellow;
+    margin-left: 4vw;
+    margin-top: 2px;
+}
+.about p
+{
+font-size: 21px;
+margin-left:4vw;
+margin-top:-100px;
+
+}
+.about-me
+{
+    background-color: red;
+}
+.exp
+{
+background-color:pink;
+width:50%;
+height:500px;
+
+}
+.exp h2{
+    color:chocolate;
+    margin-top:5vw;
+    margin-left:4vw;
+
+}
+.experience
+{
+    width:100%;
+    display:flex;
+flex-direction:row;
+}
+.inside-exp
+{
+    width:50%;
+    margin-left:4vw;
+    margin-top:-20px;
+    background-color:red;
+}
+.my-portfolio
+{
+background-color:;
+width:100%;
+height:200px;
+text-align: center;
+}
+.my-portfolio h3
+{
+color:red;
+}
+.my-portfolio h1
+{
+color: black;
+}
+.portfolio
+{
+    width:100%;
+    height:auto;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+}
+.section
+{
+    height:400px;
+    width:33.333%;
+    text-align: center;
+    padding-top: 40px;
+    margin:10px;
+}
+.section:hover
+{
+    border:1px solid black;
+}
+.section article{
+    padding:50px;
+    margin:20px;
+}
+.sec1
+{
+    background-color: yellow;
+}
+.sec2
+{
+    background-color: green;
+}
+.sec3
+{
+    background-color:black;
+}
+.clients
+{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+}
+.first-client
+{
+    background-color: gold;
+    width:50%;
+    height:300px;
+
+}
+.second-client
+{
+    background-color:darkorange;
+    width:50%;
+    height:300px;
+}
+.footer
+{
+    background-color: black;
+    min-height: 400px;
+    width:100%;
+
+}
+.footer h2
+{
+color:red;
+margin-left:50px;
+padding-top: 80px;
+}
+.footer h1
+{
+margin-left:50px;
+}
+.fmenu ul li
+{
+    display:inline-block;
+    padding:10px;
+    font-size: 25px;
+}
+.fmenu ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+.fsocial
+{
+    position:absolute;
+    right:50px;
+}
+.butt
+{
+position:absolute;
+right:0px;
+right:50px;
+margin-top:-180px;
+}
+.butt button
+{
+    font-size: 25px;
+    background-color: red;
+}

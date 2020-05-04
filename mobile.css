@@ -1,0 +1,79 @@
+@media screen and  (max-width: 1000px)
+{
+
+.menus
+{
+    position:absolute;
+    height:50px;
+    width:100%;
+    margin-top:100px;
+    margin-left:0px;
+    background-color: tan;
+    z-index: 2;
+}
+
+.nav ul li
+{
+display:inline-block;
+font-size: 25px;
+margin-top: 10px;
+
+}
+.social
+{
+    position:absolute;
+    height:100px;
+    width:auto;
+    right:0px;  
+    font-size:25px;
+    background-color:gold;
+}
+header img
+{
+    display:none;
+}
+
+.experiences
+{
+    flex-direction:column;
+}
+.about
+{
+    width:100%;
+    height:400px;
+}
+
+.exp
+{
+    width:100%;
+    height:400px;  
+}
+.portfolio
+{
+    flex-direction: column;
+}
+.section
+{
+    width:100%;
+}
+
+.clients
+{
+    display:flex;
+    flex-direction:column;
+}
+.first-client
+{
+    width:100%;
+
+}
+.second-client
+{
+    width:100%;
+}
+
+.butt
+{
+    margin-top:-100px;
+    margin-right:100px;
+}
